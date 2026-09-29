@@ -2,7 +2,7 @@ package com.example;
 
 public class GreetingService {
 
-    public String greet(String name) {
-        return "Hello, " + name;
+    public String FormatName(String name) {
+        return name.trim().toUpperCase();
     }
 }
